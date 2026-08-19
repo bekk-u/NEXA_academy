@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0 auto;
+    font-family: "Roboto";
+    color: #F9FAF8;
+}
+
+body{
+    width: 1512px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+    background-color: #031f46;
+}
+
+.header h1{
+    font-size: 45px;
+    cursor: pointer;
+} 
+
+.header h1 a{
+    text-decoration: none;
+}
+
+.nav{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    font-size: 18px;
+    list-style-type: none;   
+}
+
+.nav a{
+    text-decoration: none;
+    color: #c5c6ca;
+}
+
+.nav a:hover{
+    text-decoration: underline;
+    color: #F9FAF8;
+}
+
+.maincontent{
+    display: flex;
+    height: 500px;
+    align-items: center;
+}
+
+.maint{
+    width: 550px;
+    margin: 0 16rem;
+    padding: 2rem;
+    background-color: #031f46ce;
+    border-radius: 2rem;
+}
+
+.backimg{
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    width: 1512px;
+    height: 500px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.maincontent h1{
+    font-size: 50px;
+}
+
+#btn{
+    background-color: #095adb;
+    margin-top: 40px;
+    height: 70px;
+    width: 200px;
+    border: none;
+    border-radius: 1rem;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#btn:hover{
+    box-shadow: 0 0 30px #0f65ef;
+}
+
+#we h1{
+    color: #031f46;
+    font-size: 48px;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.teach{
+    display: flex;
+    padding: 0 0 4rem;
+}
+
+.prespic{
+    width: 160px;
+    height: 180px;
+    border: 3px solid #095adb;
+    border-radius: 10px;
+}
+
+.presinf{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.presinf p{
+    color: #5a5b5e;
+    padding: .1rem 0;
+}
+
+#about{
+    background-color: #e0e0e2;
+}
+
+#about h1{
+    color: #0447a4;
+    padding: 3rem 5rem;
+}
+
+#about h2{
+    color: #0447a4;
+    padding: 0rem 2rem;
+}
+
+#about div{
+    color: #0447a4;
+    display: flex;
+    gap: 50px;
+}
+
+#about p{
+    color: #0447a4;
+    padding: 1rem 2rem 5rem;
+    font-size: 20px;
+}
+
+#about b{
+    color: #0447a4;
+}
+
+#foot{
+    display: flex;
+    background-color: #031f46;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin: 0;
+}
+
+#foot p{
+    color: #dbdcdf;
+    font-size: 15px;
+}
+
+#foot a{
+    text-decoration: none;
+}
